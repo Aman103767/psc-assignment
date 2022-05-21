@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+}
+
+form {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 30%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 30px;
+  }
+  
+  label {
+    font-size: 20px;
+  }
+  
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    background-color: #2b619e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3973b6;
+  }
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: monospace;
+    color: #2b619e;
+    text-decoration: underline;
+  }
+  #nav{
+        
+    height: 80px;
+    width: 100%;
+    background-color:rgb(2, 2, 39);
+   
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+   }
+   #box {
+       width :100%;
+      
+       display:flex;
+       justify-content: space-around ;
+       
+   }
+   #nav>div:first-child{
+           padding: 20px;
+   }
+   #box>div>a{
+       text-decoration: none;
+       color: white;
+   }
+   #nav>div:first-child{
+       color:white;
+   }
+  
+   #navname{
+    width:80%;
+  display:flex;
+  margin-left:10px;
+
+}
